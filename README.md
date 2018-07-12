@@ -1,5 +1,7 @@
 # DXVK
 
+# This fork provides the latest DXVK compatibility with nvidia driver 396.24.0, by not including commit f8650c1 [dxvk] Require VK_KHR_maintenance2 and VK_EXT_vertex_attribute_divisor or any commits that depend on it
+
 A Vulkan-based compatibility layer for Direct3D 11 which allows running 3D applications on Linux using Wine.
 
 For the current status of the project, please refer to the [project wiki](https://github.com/doitsujin/dxvk/wiki).
